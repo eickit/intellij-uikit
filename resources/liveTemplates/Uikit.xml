@@ -310,7 +310,7 @@
         </context>
     </template>
     <template name="uk-grid"
-            value="&#60;div class=&quot;$class1$&quot;&#62;&#10;    &#60;div class=&quot;$class2$&quot;&#62;$content1$&#60;/div&#62;&#10;    &#60;div class=&quot;$class3$&quot;&#62;$content2$&#60;/div&#62;&#10;&#60;/div&#62;&#10;"
+            value="&#60;div class=&quot;$class1$&quot;&#62; data-uk-grid-margin&#10;    &#60;div class=&quot;$class2$&quot;&#62;$content1$&#60;/div&#62;&#10;    &#60;div class=&quot;$class3$&quot;&#62;$content2$&#60;/div&#62;&#10;&#60;/div&#62;&#10;"
             description="UIkit uk-grid component" toReformat="false">
         <variable name="class1" expression="&quot;uk-grid&quot;" defaultValue="" alwaysStopAt="true"/>
         <variable name="class2" expression="&quot;uk-width-1-2&quot;" defaultValue="" alwaysStopAt="true"/>
